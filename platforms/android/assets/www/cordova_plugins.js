@@ -303,6 +303,13 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins\\org.apache.cordova.plugin.websocket.WebSocket\\www\\phonegap-websocket.js",
+        "id": "org.apache.cordova.plugin.websocket.WebSocket.websocket",
+        "clobbers": [
+            "WebSocket"
+        ]
+    },
+    {
         "file": "plugins\\org.apache.cordova.core.file\\www\\DirectoryEntry.js",
         "id": "org.apache.cordova.core.file.DirectoryEntry",
         "clobbers": [
